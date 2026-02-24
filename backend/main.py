@@ -7,7 +7,9 @@ app = FastAPI()
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173",
+                   "https://ai-portfolio-umber-five.vercel.app",
+                   "https://ai-portfolio-bzty.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
