@@ -2,10 +2,10 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
-import Projects from "../components/projects";
+import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import AIChat from "../components/AIChat";
-import Contact from "../components/contact";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
